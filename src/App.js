@@ -4,11 +4,15 @@ import './App.css';
 
 import { Button } from 'react-bootstrap';
 import { Entry } from './pages/entry/Entry.page';
+import { Homepage } from './layout/Homepage.comp';
 
 function App() {
   return (
     <div className="App">
-      <Entry />
+      {/* <Entry /> */}
+      <Homepage>
+        //Dashboard//
+      </Homepage>
     </div>
   );
 }
