@@ -1,7 +1,8 @@
+//jshint esversion: 9
 import React from 'react';
+import { Breadcrumb } from 'react-bootstrap';
 
-
- const Breadcrumb = (page) => {
+ const PageBreadcrumb = (page) => {
     return (
         <Breadcrumb>
             <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
@@ -11,4 +12,4 @@ import React from 'react';
     )
 }
 
-export default Breadcrumb;
+export default PageBreadcrumb;
